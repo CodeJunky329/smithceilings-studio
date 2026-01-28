@@ -1,0 +1,10 @@
+/*
+  Netlify Redirects
+  This file ensures proper routing for single-page applications.
+*/
+/*
+  SPA Redirect - Handle all routes with index.html
+*/
+/* All paths */
+/*   Redirect to index.html */
+/*   Status: 200 (rewrite, not redirect) */
