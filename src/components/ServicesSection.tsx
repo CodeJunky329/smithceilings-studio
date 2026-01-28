@@ -53,7 +53,7 @@ const itemVariants = {
 
 export function ServicesSection() {
   return (
-    <section className="section-padding bg-secondary/30">
+    <section className="py-24 md:py-32 bg-secondary/30">
       <div className="container-custom">
         {/* Header */}
         <motion.div
