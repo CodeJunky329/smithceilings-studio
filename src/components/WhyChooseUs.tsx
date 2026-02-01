@@ -14,13 +14,13 @@ const reasons = [
   },
   {
     icon: Award,
-    title: "10+ Years Experience",
+    title: "30+ Years Experience",
     description: "A decade of expertise in ceiling installation and repairs.",
   },
   {
     icon: Users,
-    title: "500+ Happy Clients",
-    description: "Join hundreds of satisfied homeowners and businesses.",
+    title: "1k+ Happy Clients",
+    description: "Join over one thousand of satisfied homeowners and businesses.",
   },
   {
     icon: ThumbsUp,
@@ -62,11 +62,11 @@ export function WhyChooseUs() {
             {/* Stats */}
             <div className="grid grid-cols-3 gap-6">
               <div>
-                <div className="font-display text-4xl font-bold text-accent">10+</div>
+                <div className="font-display text-4xl font-bold text-accent">30+</div>
                 <div className="text-sm text-primary-foreground/60">Years Experience</div>
               </div>
               <div>
-                <div className="font-display text-4xl font-bold text-accent">500+</div>
+                <div className="font-display text-4xl font-bold text-accent">1k+</div>
                 <div className="text-sm text-primary-foreground/60">Projects Done</div>
               </div>
               <div>

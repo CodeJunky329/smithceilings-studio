@@ -122,7 +122,7 @@ const Services = () => {
                       ))}
                     </ul>
                     <Link to="/contact">
-                      <Button className="btn-gold group">
+                      <Button className="mt-8 mb-8 btn-gold group">
                         Get Quote
                         <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                       </Button>

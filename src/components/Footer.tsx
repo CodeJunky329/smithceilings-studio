@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center font-display font-bold text-accent-foreground text-xl">
-                S
+                SC
               </div>
               <span className="font-display font-bold text-xl">
                 Smith<span className="text-accent">Ceilings</span>
@@ -76,8 +76,8 @@ export function Footer() {
                 <Phone className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-sm text-primary-foreground/70">Call Us</p>
-                  <a href="tel:+27000000000" className="hover:text-accent transition-colors">
-                    +27 000 000 000
+                  <a href="tel:+27839881164" className="hover:text-accent transition-colors">
+                    +27 83 988 1164
                   </a>
                 </div>
               </li>
@@ -85,8 +85,8 @@ export function Footer() {
                 <Mail className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" />
                 <div>
                   <p className="text-sm text-primary-foreground/70">Email</p>
-                  <a href="mailto:info@smithceilings.co.za" className="hover:text-accent transition-colors">
-                    info@smithceilings.co.za
+                  <a href="mailto:mogamatsaliesmith45@gmail.com" className="hover:text-accent transition-colors">
+                    mogamatsaliesmith45@gmail.com
                   </a>
                 </div>
               </li>

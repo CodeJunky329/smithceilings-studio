@@ -7,7 +7,7 @@ import heroImage from "@/assets/hero-ceiling.jpg";
 const features = [
   "Premium Quality Materials",
   "Expert Installation",
-  "10+ Years Experience",
+  "30+ Years Experience",
 ];
 
 export function HeroSection() {
@@ -34,7 +34,7 @@ export function HeroSection() {
           >
             <span className="w-2 h-2 bg-accent rounded-full animate-pulse" />
             <span className="text-sm font-medium text-accent">
-              Trusted by 500+ Homeowners
+              Trusted by 1k+ Homeowners
             </span>
           </motion.div>
 
@@ -56,7 +56,7 @@ export function HeroSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg sm:text-xl text-muted-foreground max-w-2xl mb-8"
           >
-            We install ceilings that don't just look good — they last. From PVC to
+            We install ceilings that don't just look good, they last. From PVC to
             suspended ceilings, we deliver craftsmanship you can trust.
           </motion.p>
 
@@ -101,7 +101,7 @@ export function HeroSection() {
       </div>
 
       {/* Scroll Indicator */}
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
@@ -116,8 +116,8 @@ export function HeroSection() {
           >
             <div className="w-1 h-2 bg-accent rounded-full" />
           </motion.div>
-        </div>
-      </motion.div>
+        </div> */}
+      {/* </motion.div> */}
     </section>
   );
 }

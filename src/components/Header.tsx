@@ -43,7 +43,7 @@ export function Header() {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
             <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center font-display font-bold text-accent-foreground text-xl transition-transform group-hover:scale-105">
-              S
+              SC
             </div>
             <span className="font-display font-bold text-xl tracking-tight">
               Smith<span className="text-accent">Ceilings</span>
@@ -78,7 +78,7 @@ export function Header() {
             <ThemeToggle />
             
             <a
-              href="tel:+27000000000"
+              href="tel:+27839881164"
               className="hidden md:flex items-center gap-2 text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
             >
               <Phone className="h-4 w-4" />

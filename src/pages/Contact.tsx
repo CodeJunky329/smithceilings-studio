@@ -38,7 +38,7 @@ const Contact = () => {
     await new Promise((resolve) => setTimeout(resolve, 1500));
 
     toast({
-      title: "Message sent!",
+      title: "Message sent successfully!",
       description: "We'll get back to you within 24 hours.",
     });
 
@@ -97,7 +97,7 @@ const Contact = () => {
 
                 <div className="space-y-6">
                   <a
-                    href="tel:+27000000000"
+                    href="tel:+27839881164"
                     className="flex items-start gap-4 group"
                   >
                     <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center group-hover:bg-accent transition-colors">
@@ -105,12 +105,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold">Phone</div>
-                      <div className="text-muted-foreground">+27 000 000 000</div>
+                      <div className="text-muted-foreground">+27 83 988 1164</div>
                     </div>
                   </a>
 
                   <a
-                    href="mailto:info@smithceilings.co.za"
+                    href="mailto:mogamatsaliesmith45@gmail.com"
                     className="flex items-start gap-4 group"
                   >
                     <div className="w-12 h-12 bg-accent/10 rounded-xl flex items-center justify-center group-hover:bg-accent transition-colors">
@@ -118,7 +118,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <div className="font-semibold">Email</div>
-                      <div className="text-muted-foreground">info@smithceilings.co.za</div>
+                      <div className="text-muted-foreground">mogamatsaliesmith45@gmail.com</div>
                     </div>
                   </a>
 
@@ -135,7 +135,7 @@ const Contact = () => {
 
                 {/* WhatsApp Button */}
                 <a
-                  href="https://wa.me/27000000000?text=Hi%20SmithCeilings!%20I'm%20interested%20in%20a%20ceiling%20project."
+                  href="https://wa.me/27839881164?text=Hi%20SmithCeilings!%20I'm%20interested%20in%20a%20ceiling%20project."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-6 py-3 bg-[#25D366] text-white font-semibold rounded-xl hover:bg-[#20BD5A] transition-colors"

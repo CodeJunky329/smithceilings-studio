@@ -48,7 +48,7 @@ const About = () => {
                 Craftsmanship You Can <span className="text-gradient-gold">Trust</span>
               </h1>
               <p className="text-muted-foreground text-lg">
-                For over a decade, SmithCeilings has been transforming spaces across
+                For over three decades, SmithCeilings has been transforming spaces across
                 Cape Town with premium ceiling solutions.
               </p>
             </motion.div>
@@ -77,10 +77,10 @@ const About = () => {
                   <p>
                     "I started this business because I saw too many homeowners left with
                     subpar work and unfulfilled promises. I wanted to build something
-                    different — a company where quality and honesty come first."
+                    different, a company where quality and honesty come first."
                   </p>
                   <p>
-                    Today, with over 10 years of experience and hundreds of completed
+                    Today, with over 30 years of experience and over one thousand of completed
                     projects, that commitment remains unchanged. Every ceiling we install
                     carries our reputation, and we take that seriously.
                   </p>
@@ -91,7 +91,7 @@ const About = () => {
                   </div>
                   <div>
                     <div className="font-semibold">Salie Smith</div>
-                    <div className="text-sm text-muted-foreground">Founder & Lead Craftsman</div>
+                    <div className="text-sm text-muted-foreground">Founder & Lead Ceiling Fixer</div>
                   </div>
                 </div>
               </motion.div>
@@ -106,11 +106,11 @@ const About = () => {
                 <h3 className="font-display text-2xl font-bold mb-6">Our Numbers</h3>
                 <div className="grid grid-cols-2 gap-8">
                   <div>
-                    <div className="font-display text-5xl font-bold text-accent">10+</div>
+                    <div className="font-display text-5xl font-bold text-accent">30+</div>
                     <div className="text-primary-foreground/70 mt-1">Years in Business</div>
                   </div>
                   <div>
-                    <div className="font-display text-5xl font-bold text-accent">500+</div>
+                    <div className="font-display text-5xl font-bold text-accent">1k+</div>
                     <div className="text-primary-foreground/70 mt-1">Projects Completed</div>
                   </div>
                   <div>
