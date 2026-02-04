@@ -3,16 +3,19 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { CTASection } from "@/components/CTASection";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import projectOffice from "@/assets/project-office.jpg";
+import projectResidential from "@/assets/project-residential.jpg";
+import projectRestaurant from "@/assets/project-restaurant.jpg";
+import projectApartment from "@/assets/project-apartment.jpg";
+import projectHotel from "@/assets/project-hotel.jpg";
+import projectCorporate from "@/assets/project-corporate.jpg";
 
 const categories = ["All", "Commercial", "Residential", "Hospitality"];
 
 const projects = [
   {
     id: 1,
-    image: project1,
+    image: projectOffice,
     title: "Tech Office Headquarters",
     category: "Commercial",
     description: "Geometric suspended ceiling with integrated lighting for a modern tech company.",
@@ -20,7 +23,7 @@ const projects = [
   },
   {
     id: 2,
-    image: project2,
+    image: projectRestaurant,
     title: "The Golden Oak Restaurant",
     category: "Hospitality",
     description: "Elegant acoustic ceiling panels creating the perfect dining ambiance.",
@@ -28,7 +31,7 @@ const projects = [
   },
   {
     id: 3,
-    image: project3,
+    image: projectResidential,
     title: "Luxury Family Home",
     category: "Residential",
     description: "Custom coffered ceiling with warm LED lighting throughout the living space.",
@@ -36,7 +39,7 @@ const projects = [
   },
   {
     id: 4,
-    image: project1,
+    image: projectCorporate,
     title: "Corporate Law Firm",
     category: "Commercial",
     description: "Professional suspended ceiling with premium acoustic treatment.",
@@ -44,7 +47,7 @@ const projects = [
   },
   {
     id: 5,
-    image: project2,
+    image: projectHotel,
     title: "Boutique Hotel Lobby",
     category: "Hospitality",
     description: "Statement ceiling design creating a memorable first impression.",
@@ -52,7 +55,7 @@ const projects = [
   },
   {
     id: 6,
-    image: project3,
+    image: projectApartment,
     title: "Modern Apartment",
     category: "Residential",
     description: "Sleek PVC ceiling installation for a contemporary living space.",
@@ -69,7 +72,7 @@ const Projects = () => {
       : projects.filter((p) => p.category === activeCategory);
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <Header />
       <main>
         {/* Hero */}
