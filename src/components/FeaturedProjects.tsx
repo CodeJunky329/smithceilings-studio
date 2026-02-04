@@ -2,28 +2,28 @@ import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import project1 from "@/assets/project-1.jpg";
-import project2 from "@/assets/project-2.jpg";
-import project3 from "@/assets/project-3.jpg";
+import projectOffice from "@/assets/project-office.jpg";
+import projectRestaurant from "@/assets/project-restaurant.jpg";
+import projectResidential from "@/assets/project-residential.jpg";
 
 const projects = [
   {
     id: 1,
-    image: project1,
+    image: projectOffice,
     title: "Modern Office Complex",
     category: "Commercial",
     description: "Geometric suspended ceiling installation for a tech company headquarters.",
   },
   {
     id: 2,
-    image: project2,
+    image: projectRestaurant,
     title: "Upscale Restaurant",
     category: "Hospitality",
     description: "Elegant acoustic ceiling panels with integrated ambient lighting.",
   },
   {
     id: 3,
-    image: project3,
+    image: projectResidential,
     title: "Luxury Residence",
     category: "Residential",
     description: "Custom coffered ceiling with premium LED lighting integration.",
