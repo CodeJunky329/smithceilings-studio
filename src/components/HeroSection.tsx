@@ -129,7 +129,7 @@ export function HeroSection() {
                 </Button>
               </Link>
               <Link to="/projects">
-                <Button size="lg" variant="outline" className="border-2 h-14 px-8 text-base group">
+                <Button size="lg" variant="outline" className="border-2 border-foreground/20 h-14 px-8 text-base group text-foreground hover:text-foreground hover:bg-foreground/10">
                   <Play className="mr-2 h-4 w-4 fill-current" />
                   View Our Work
                 </Button>
