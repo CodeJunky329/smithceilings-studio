@@ -107,7 +107,7 @@ export function CTASection() {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="w-full h-14 text-base border-2 border-accent/40 bg-accent/10 text-white hover:bg-accent/20 hover:text-white justify-center"
+                  className="w-full h-14 text-base border-2 border-accent/40 bg-accent/10 text-primary-foreground hover:bg-accent/20 hover:text-primary-foreground justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   Call: 083 988 1164
@@ -123,7 +123,7 @@ export function CTASection() {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="w-full h-14 text-base border-2 border-emerald-500/30 text-emerald-400 hover:bg-emerald-500/10 hover:text-emerald-400 justify-center"
+                  className="w-full h-14 text-base border-2 border-emerald-500/40 bg-emerald-500/10 text-primary-foreground hover:bg-emerald-500/20 hover:text-primary-foreground justify-center"
                 >
                   <MessageCircle className="mr-2 h-5 w-5" />
                   WhatsApp Us

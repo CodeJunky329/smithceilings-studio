@@ -143,7 +143,7 @@ const Services = () => {
                   </Button>
                 </Link>
                 <Link to="/projects">
-                  <Button size="lg" variant="outline" className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+                  <Button size="lg" variant="outline" className="border-2 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground">
                     View Our Work
                   </Button>
                 </Link>
@@ -336,7 +336,7 @@ const Services = () => {
                   <Button 
                     size="lg" 
                     variant="outline" 
-                    className="border-2 border-accent/40 bg-accent/10 text-white hover:bg-accent/20 hover:text-white text-base px-8"
+                    className="border-2 border-accent/40 bg-accent/10 text-primary-foreground hover:bg-accent/20 hover:text-primary-foreground text-base px-8"
                   >
                     <Phone className="mr-2 h-5 w-5" />
                     Call Now
