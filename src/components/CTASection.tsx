@@ -107,7 +107,7 @@ export function CTASection() {
                 <Button 
                   size="lg" 
                   variant="outline" 
-                  className="w-full h-14 text-base border-2 border-primary-foreground/20 text-primary-foreground hover:bg-primary-foreground/10 hover:text-primary-foreground justify-center"
+                  className="w-full h-14 text-base border-2 border-accent/40 bg-accent/10 text-white hover:bg-accent/20 hover:text-white justify-center"
                 >
                   <Phone className="mr-2 h-5 w-5" />
                   Call: 083 988 1164
